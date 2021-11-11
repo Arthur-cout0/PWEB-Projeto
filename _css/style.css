@@ -1,0 +1,299 @@
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu {
+    background-color: #16467e;
+    margin: 0;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid rgba(0,0,0,0.4);
+}
+
+.menu li {
+    list-style: none;
+    display: inline-block;
+}
+
+.menu-nome-link{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.menu-nome-link:hover{
+    color: rgb(61, 124, 196);
+    text-decoration: none;
+}
+
+.header-buttons{
+    background-color: #15385f;
+    color: #fff;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.header-buttons:hover{
+    background-color: rgb(111, 138, 212);
+    color: #15385f;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.cards{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    justify-content: space-around;
+}
+
+.card{
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    height: 300px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.4);
+    display: block;
+    size: 100%;
+}
+
+.credit-card{
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    width: 150px;
+    height: 150px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.4);
+    display: block;
+    size: 100%;
+}
+
+.credit-card-img{
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100px;
+    border-radius: 5px;
+    margin: 0px;
+    position: relative;
+}
+
+.credit-card:hover{
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.4);
+}
+
+.card:hover{
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.4);
+}
+
+.card-link{
+    text-decoration: none;
+}
+
+.card-title{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: gray;
+    margin: 0px;
+    padding-bottom: 10px;
+}
+
+.card-img{
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 250px;
+    border-radius: 5px;
+    margin: 0px;
+    position: relative;
+}
+
+.content-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.content-info{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 90%;
+    height: 50px;
+    background-color: #4c7aaf;
+    border-radius: 5px;
+    border-bottom: 2px solid rgba(0,0,0,0.4);
+    color: #fff;
+    padding: 10px;
+    margin: 10px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.stand-resume{
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: black;
+    margin: 5px;
+    padding: 0px;
+}
+
+.stand-img{
+    max-width: 300px;
+    max-height: 300px;
+    width: auto;
+    height: auto;
+    border-radius: 5px;
+    margin: 0px;
+    position: relative;
+}
+
+.content-div{
+    width: 60%;
+    height: 2px;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: 0;
+    padding: 0;
+    margin: 10px auto;
+}
+
+.stand-content{
+    display: flex;
+    flex-direction: column;  
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+    width: auto;
+    color: black;
+    font-size: 15px;
+}
+
+.content-text{
+    width: 60%;
+    padding: 0;
+    margin: 0;
+}
+
+.content-title{
+    width: 60%;
+    height: 50px;
+    text-align: center;
+    border-radius: 5px;
+    border-bottom: 2px solid rgba(0,0,0,0.4);
+    background-color: #4175af;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    margin: 10px;
+}
+
+.content-title-text{
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin: 15px;
+    padding: 0;
+}
+
+.creditos{
+    width: 100px;
+    background-color: #24538a;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: auto;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+}
+
+.link-creditos{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.link-creditos:hover{
+    text-decoration: underline;
+}
+
+.content-video{
+    margin-top: 10px;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.input{
+    margin: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.form-div{
+    background-color: #97c6fc;
+    padding: 10px;
+    border-radius: 5px;
+    border-bottom: 2px solid rgba(0,0,0,0.4);
+}
+.form-button{
+    border: none;
+    background-color: #4175af;
+    width: 70px;
+    height: 20px;
+    border-radius: 5px;
+    border-bottom: 2px solid rgba(0,0,0,0.4);
+    margin: 5px;
+}
